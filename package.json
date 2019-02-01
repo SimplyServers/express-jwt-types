@@ -1,0 +1,68 @@
+{
+  "_from": "@types/express-jwt",
+  "_id": "@types/express-jwt@0.0.41",
+  "_inBundle": false,
+  "_integrity": "sha512-Ob6fScCuEGaV0nqpqE3AEsxOjGNyF4Yksx9cqyjgwxuX3rW43J05EooE4CRHcyT/dO/VTKHmK0qn9X0z3A9GIg==",
+  "_location": "/@types/express-jwt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@types/express-jwt",
+    "name": "@types/express-jwt",
+    "escapedName": "@types%2fexpress-jwt",
+    "scope": "@types",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/express-jwt/-/express-jwt-0.0.41.tgz",
+  "_shasum": "4066960d8c3ce91e94b41c82c15b691314b3996d",
+  "_spec": "@types/express-jwt",
+  "_where": "/home/simplyalec/WebstormProjects/SimplyServersAPI-TS",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Wonshik Kim",
+      "url": "https://github.com/wokim"
+    },
+    {
+      "name": "Kacper Polak",
+      "url": "https://github.com/kacepe"
+    },
+    {
+      "name": "Sl1MBoy",
+      "url": "https://github.com/Sl1MBoy"
+    },
+    {
+      "name": "Milan Mimra",
+      "url": "https://github.com/milan-mimra"
+    }
+  ],
+  "dependencies": {
+    "@types/express": "*",
+    "@types/express-unless": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for express-jwt",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/express-jwt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.3",
+  "types": "index",
+  "typesPublisherContentHash": "ce93b988acbb6f412806a27bc4dd8564f8d5b6260832be56755cebf85a7a6a54",
+  "version": "0.0.41"
+}
