@@ -29,7 +29,10 @@ declare namespace jwt {
         (req: express.Request, payload: any, done: (err: any, secret?: secretType) => void): void;
     }
     export interface PayloadSanitizer {
-        (payload: any): void;
+        (unsanizitedToken: any, callback: PayloadSanitizerCallback): void;
+    }
+    export interface PayloadSanitizerCallback {
+        (err: any, token: any): void;
     }
     export interface IsRevokedCallback {
         (req: express.Request, payload: any, done: (err: any, revoked?: boolean) => void): void;
